@@ -1,0 +1,85 @@
+PODS:
+  - Alamofire (5.10.2)
+  - b2v-ios-extras (0.0.13)
+  - b2v-ios-extras-swift (0.0.13)
+  - BiSON (1.2.5)
+  - CocoaLumberjack/Core (3.8.5)
+  - CocoaLumberjack/Swift (3.8.5):
+    - CocoaLumberjack/Core
+  - CocoaMQTT (2.1.6):
+    - CocoaMQTT/Core (= 2.1.6)
+  - CocoaMQTT/Core (2.1.6):
+    - MqttCocoaAsyncSocket (~> 1.0.8)
+  - MapboxCommon (24.9.0):
+    - Turf (= 4.0.0)
+  - MapboxCoreMaps (11.9.2):
+    - MapboxCommon (~> 24.9)
+  - MapboxMaps (11.9.1):
+    - MapboxCommon (= 24.9.0)
+    - MapboxCoreMaps (= 11.9.2)
+    - Turf (= 4.0.0)
+  - MqttCocoaAsyncSocket (1.0.8)
+  - SmartDeviceLink (7.5.0):
+    - BiSON (~> 1.2)
+    - SmartDeviceLink/Default (= 7.5.0)
+  - SmartDeviceLink/Default (7.5.0):
+    - BiSON (~> 1.2)
+  - SwiftProtobuf (1.28.2)
+  - Turf (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - "b2v-ios-extras (from `git@github.com:US-Detroit/internal-b2v-ios-libsmores.git`)"
+  - "b2v-ios-extras-swift (from `git@github.com:US-Detroit/internal-b2v-ios-libsmores.git`)"
+  - CocoaLumberjack/Swift
+  - CocoaMQTT
+  - MapboxMaps
+  - SmartDeviceLink (~> 7.5.0)
+  - SwiftProtobuf (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BiSON
+    - CocoaLumberjack
+    - CocoaMQTT
+    - MapboxCommon
+    - MapboxCoreMaps
+    - MapboxMaps
+    - MqttCocoaAsyncSocket
+    - SmartDeviceLink
+    - SwiftProtobuf
+    - Turf
+
+EXTERNAL SOURCES:
+  b2v-ios-extras:
+    :git: "git@github.com:US-Detroit/internal-b2v-ios-libsmores.git"
+  b2v-ios-extras-swift:
+    :git: "git@github.com:US-Detroit/internal-b2v-ios-libsmores.git"
+
+CHECKOUT OPTIONS:
+  b2v-ios-extras:
+    :commit: 4b95cd8c79f570612a35899eacf43d3a3b24a4b9
+    :git: "git@github.com:US-Detroit/internal-b2v-ios-libsmores.git"
+  b2v-ios-extras-swift:
+    :commit: 4b95cd8c79f570612a35899eacf43d3a3b24a4b9
+    :git: "git@github.com:US-Detroit/internal-b2v-ios-libsmores.git"
+
+SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  b2v-ios-extras: 351666ad14c73c5f5cc90bfe76f44ff2ccb705b4
+  b2v-ios-extras-swift: c5c94e69748645ff4355023dc63559518df5520e
+  BiSON: 232dc4fdbe825301742963f27a78f10f13bca68b
+  CocoaLumberjack: 6a459bc897d6d80bd1b8c78482ec7ad05dffc3f0
+  CocoaMQTT: 1f206228b29318eabdacad0c2e4e88575922c27a
+  MapboxCommon: 678bfc4b477a804244fd7323c79cc7f2402f844e
+  MapboxCoreMaps: c22e65380c0e11551081196f083b20cab662a5fe
+  MapboxMaps: dbe3b02f9adcee903d5217c9b251536828bc6304
+  MqttCocoaAsyncSocket: 77d3b74f76228dd5a05d1f9526eab101d415b30c
+  SmartDeviceLink: cc221bebef9523b2b1b12162f3573075219f3fef
+  SwiftProtobuf: 4dbaffec76a39a8dc5da23b40af1a5dc01a4c02d
+  Turf: c9eb11a65d96af58cac523460fd40fec5061b081
+
+PODFILE CHECKSUM: 632f4e7a33502b319c250fc36c08ab95caf04352
+
+COCOAPODS: 1.15.2

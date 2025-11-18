@@ -1,0 +1,67 @@
+{
+  "UserAgent": "aws-amplify-cli/2.0",
+  "Version": "1.0",
+  "storage": {
+      "plugins": {
+          "awsS3StoragePlugin": {
+              "bucket": "b2vc-file-drop",
+              "region": "us-east-2"
+          }
+      }
+  },
+  "auth": {
+      "plugins": {
+          "awsCognitoAuthPlugin": {
+              "UserAgent": "aws-amplify-cli/0.1.0",
+              "Version": "0.1.0",
+              "IdentityManager": {
+                  "Default": {}
+              },
+              "CredentialsProvider": {
+                  "CognitoIdentity": {
+                      "Default": {
+                          "PoolId": "us-east-2:182be856-ff07-48fc-aae6-18d612707c6a",
+                          "Region": "us-east-2"
+                      }
+                  }
+              },
+              "CognitoUserPool": {
+                  "Default": {
+                      "PoolId": "us-east-2_vQFACB08x",
+                      "AppClientId": "32r4brheueg3fl0a90859sej1s",
+                      "Region": "us-east-2"
+                  }
+              },
+              "Auth": {
+                  "Default": {
+                      "authenticationFlowType": "USER_SRP_AUTH",
+                      "loginMechanisms": [
+                          "PREFERRED_USERNAME"
+                      ],
+                      "signupAttributes": [],
+                      "passwordProtectionSettings": {
+                          "passwordPolicyCharacters": []
+                      },
+                      "mfaTypes": [],
+                      "verificationMechanisms": [],
+                      "OAuth": {
+                        "WebDomain": "tomesoftware-com.auth.us-east-2.amazoncognito.com",
+                        "AppClientId": "32r4brheueg3fl0a90859sej1s",
+                        "SignInRedirectURI": "myapp://mainAct",
+                        "SignOutRedirectURI": "myapp://signout",
+                        "Scopes": ["openid", "email", "aws.cognito.signin.user.admin"]
+                      },
+                      "SignOutURI": "https://tomesoftware-com.auth.us-east-2.amazoncognito.com/logout",
+                      "SignInURI": "https://tomesoftware-com.auth.us-east-2.amazoncognito.com"
+                  }
+              },
+              "S3TransferUtility": {
+                  "Default": {
+                      "Bucket": "b2vc-file-drop",
+                      "Region": "us-east-2"
+                  }
+              }
+          }
+      }
+  }
+}

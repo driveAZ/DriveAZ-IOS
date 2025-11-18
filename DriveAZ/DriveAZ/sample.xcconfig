@@ -1,0 +1,17 @@
+//
+//  Config.xcconfig
+//  DriveAZ
+//
+//  Created by Mike Bush on 4/10/25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+DAZ_MAPBOX_KEY = MAPBOX_KEY // UPDATE ME!
+
+ETX_REG_VENDOR=ACATemp
+ETX_REG_USER=ACA01
+ETX_REG_PASS=A_PASSWORD // UPDATE ME!
+ETX_ACTIVE_VENDOR_CHANNEL=ACATemp // USE Public for a Release
+ETX_REG_OAUTH_TOKEN=A_TOKEN // UPDATE ME!
+ETX_REG_OAUTH_URL=thingspace.verizon.com/api/ts/v1/oauth2/token

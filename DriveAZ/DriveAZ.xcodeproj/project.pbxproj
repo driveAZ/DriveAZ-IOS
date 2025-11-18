@@ -1,0 +1,1076 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45B3B8E83F948F312BA55308 /* Pods_DriveAZ_DriveAZUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF9D27AAF5A618E62F24F65 /* Pods_DriveAZ_DriveAZUITests.framework */; };
+		58F9F585FFDA74C34A51B2A9 /* Pods_DriveAZTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190E4A057BA28B579CF1CF6E /* Pods_DriveAZTests.framework */; };
+		915F9AAA29F6EA9300D96531 /* OldCacheManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915F9AA929F6EA9300D96531 /* OldCacheManagerTests.swift */; };
+		91C9EF2B29F6E070008D84E3 /* ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C9EF2A29F6E070008D84E3 /* ExtensionsTests.swift */; };
+		91C9EF2D29F6E4AC008D84E3 /* TransferManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C9EF2C29F6E4AC008D84E3 /* TransferManagerTests.swift */; };
+		A31CDB422CD53340009871FF /* MQTTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31CDB412CD53340009871FF /* MQTTManager.swift */; };
+		A38003152D5571770074ECFF /* ETXRegistrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38003142D5571520074ECFF /* ETXRegistrationManager.swift */; };
+		A3CD18892DA7E9A6008035DB /* config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A3CD18882DA7E9A6008035DB /* config.xcconfig */; };
+		A3E68F4C2D5E4615003AA61C /* Geohash.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E68F4B2D5E4615003AA61C /* Geohash.swift */; };
+		AACAEC80AA831E44A3E18B6C /* Pods_DriveAZ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71F9E6DA5B2F73C3FB759FC /* Pods_DriveAZ.framework */; };
+		B50A899D2D3948E200E8E9D4 /* AlertManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A899C2D3948D900E8E9D4 /* AlertManagerTests.swift */; };
+		B51264912863970700940DF7 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51264902863970700940DF7 /* AlertManager.swift */; };
+		B5126495286CB8F100940DF7 /* OldCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5126494286CB8F100940DF7 /* OldCacheManager.swift */; };
+		B5126499286F5C6800940DF7 /* SafetyMessages.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5126497286F5C6800940DF7 /* SafetyMessages.xcdatamodeld */; };
+		B5349FE32D81E851001FFE3D /* NewMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5349FE22D81E84A001FFE3D /* NewMapView.swift */; };
+		B5349FE52D89B891001FFE3D /* MapBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5349FE42D89B88C001FFE3D /* MapBoxView.swift */; };
+		B53810C72CD94A0800B7B172 /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53810C62CD94A0300B7B172 /* Extenstions.swift */; };
+		B53810CF2CF0D1D800B7B172 /* GeoRoutedMsg.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53810CE2CF0D1D800B7B172 /* GeoRoutedMsg.pb.swift */; };
+		B550988E2D56768300DE96DB /* LibSMExtrasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B550988D2D56767700DE96DB /* LibSMExtrasTests.swift */; };
+		B55472D3283540FB001CA7CD /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55472D2283540FB001CA7CD /* CustomNavigationView.swift */; };
+		B55472D52835441C001CA7CD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55472D42835441C001CA7CD /* MapView.swift */; };
+		B55472D728354486001CA7CD /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55472D628354486001CA7CD /* ListView.swift */; };
+		B55472D9283544C2001CA7CD /* VRUView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55472D8283544C2001CA7CD /* VRUView.swift */; };
+		B55472DB28354546001CA7CD /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55472DA28354546001CA7CD /* SettingView.swift */; };
+		B55472DE28358CCE001CA7CD /* ContentViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55472DD28358CCE001CA7CD /* ContentViewTests.swift */; };
+		B55FAC422885C71D00841A4A /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FAC412885C71C00841A4A /* LogInView.swift */; };
+		B55FAC482890460400841A4A /* LogInManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55FAC472890460400841A4A /* LogInManagerTests.swift */; };
+		B5773E56279B275400A2C81C /* DriveAZApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5773E55279B275400A2C81C /* DriveAZApp.swift */; };
+		B5773E58279B275400A2C81C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5773E57279B275400A2C81C /* ContentView.swift */; };
+		B5773E5A279B275600A2C81C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5773E59279B275600A2C81C /* Assets.xcassets */; };
+		B5773E5D279B275600A2C81C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5773E5C279B275600A2C81C /* Preview Assets.xcassets */; };
+		B5773E67279B275600A2C81C /* DriveAZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5773E66279B275600A2C81C /* DriveAZTests.swift */; };
+		B5773E71279B275600A2C81C /* DriveAZUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5773E70279B275600A2C81C /* DriveAZUITests.swift */; };
+		B5773E73279B275600A2C81C /* DriveAZUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5773E72279B275600A2C81C /* DriveAZUITestsLaunchTests.swift */; };
+		B58E6C4228218D650086D3D1 /* BLEManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58E6C4128218D640086D3D1 /* BLEManagerTests.swift */; };
+		B5B070C527F5F6940076DE4E /* LinearRangeMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B070C427F5F6940076DE4E /* LinearRangeMapTests.swift */; };
+		B5B070C827F610270076DE4E /* LocationManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B070C727F610270076DE4E /* LocationManagerTests.swift */; };
+		B5B070CB27F613AD0076DE4E /* PSMManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B070CA27F613AD0076DE4E /* PSMManagerTests.swift */; };
+		B5B070CD27F614120076DE4E /* SafetyMessageCreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B070CC27F614120076DE4E /* SafetyMessageCreatorTests.swift */; };
+		B5B070D127FB65970076DE4E /* MotionManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B070D027FB65970076DE4E /* MotionManagerTests.swift */; };
+		B5CD72A3283FD322004B9401 /* j2735ConversionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD72A2283FD322004B9401 /* j2735ConversionsTests.swift */; };
+		B5CD72A82847F66D004B9401 /* LogInManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD72A72847F66D004B9401 /* LogInManager.swift */; };
+		B5DD3D302989C163007A5B55 /* TransferManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD3D2F2989C163007A5B55 /* TransferManager.swift */; };
+		B5E6113D284E54CC005948A1 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = B5E6113C284E54CC005948A1 /* amplifyconfiguration.json */; };
+		B5F1EE5D2CC7EBE100E94804 /* EulaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F1EE5C2CC7EBE100E94804 /* EulaView.swift */; };
+		B5F295522892CF8E0002A68A /* ProxyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F295512892CF8E0002A68A /* ProxyManager.swift */; };
+		B5F295542894529D0002A68A /* ProxyManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F295532894529D0002A68A /* ProxyManagerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5773E63279B275600A2C81C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5773E4A279B275400A2C81C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5773E51279B275400A2C81C;
+			remoteInfo = DriveAZ;
+		};
+		B5773E6D279B275600A2C81C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5773E4A279B275400A2C81C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5773E51279B275400A2C81C;
+			remoteInfo = DriveAZ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12E1F139EA4F55533BFCE9FE /* Pods-DriveAZTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveAZTests.release.xcconfig"; path = "Target Support Files/Pods-DriveAZTests/Pods-DriveAZTests.release.xcconfig"; sourceTree = "<group>"; };
+		190E4A057BA28B579CF1CF6E /* Pods_DriveAZTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveAZTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4797627E764AAEE0BF7E0E55 /* Pods-DriveAZ-DriveAZUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveAZ-DriveAZUITests.release.xcconfig"; path = "Target Support Files/Pods-DriveAZ-DriveAZUITests/Pods-DriveAZ-DriveAZUITests.release.xcconfig"; sourceTree = "<group>"; };
+		51AE2CB2254E58B31EC03746 /* Pods-DriveAZ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveAZ.debug.xcconfig"; path = "Target Support Files/Pods-DriveAZ/Pods-DriveAZ.debug.xcconfig"; sourceTree = "<group>"; };
+		7B900F32640E2144690EBD08 /* Pods-DriveAZTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveAZTests.debug.xcconfig"; path = "Target Support Files/Pods-DriveAZTests/Pods-DriveAZTests.debug.xcconfig"; sourceTree = "<group>"; };
+		915F9AA929F6EA9300D96531 /* OldCacheManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldCacheManagerTests.swift; sourceTree = "<group>"; };
+		91C9EF2A29F6E070008D84E3 /* ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsTests.swift; sourceTree = "<group>"; };
+		91C9EF2C29F6E4AC008D84E3 /* TransferManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferManagerTests.swift; sourceTree = "<group>"; };
+		A31CDB412CD53340009871FF /* MQTTManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTManager.swift; sourceTree = "<group>"; };
+		A38003142D5571520074ECFF /* ETXRegistrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETXRegistrationManager.swift; sourceTree = "<group>"; };
+		A3CD18882DA7E9A6008035DB /* config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = config.xcconfig; sourceTree = "<group>"; };
+		A3E68F4B2D5E4615003AA61C /* Geohash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geohash.swift; sourceTree = "<group>"; };
+		B50A899C2D3948D900E8E9D4 /* AlertManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManagerTests.swift; sourceTree = "<group>"; };
+		B51264902863970700940DF7 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		B5126494286CB8F100940DF7 /* OldCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldCacheManager.swift; sourceTree = "<group>"; };
+		B5126498286F5C6800940DF7 /* SafetyMessages.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SafetyMessages.xcdatamodel; sourceTree = "<group>"; };
+		B520838C2A3B8DF80002236F /* B2VExtrasSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = B2VExtrasSwift.xcframework; path = "../../b2v-ios-extras/B2VExtrasSwift.xcframework"; sourceTree = "<group>"; };
+		B52083902A3B8E0F0002236F /* B2VExtras.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = B2VExtras.xcframework; path = "../../b2v-ios-extras/B2VExtras.xcframework"; sourceTree = "<group>"; };
+		B5349FE22D81E84A001FFE3D /* NewMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMapView.swift; sourceTree = "<group>"; };
+		B5349FE42D89B88C001FFE3D /* MapBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBoxView.swift; sourceTree = "<group>"; };
+		B53810C62CD94A0300B7B172 /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
+		B53810CE2CF0D1D800B7B172 /* GeoRoutedMsg.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoRoutedMsg.pb.swift; sourceTree = "<group>"; };
+		B550988D2D56767700DE96DB /* LibSMExtrasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibSMExtrasTests.swift; sourceTree = "<group>"; };
+		B55472D2283540FB001CA7CD /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
+		B55472D42835441C001CA7CD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B55472D628354486001CA7CD /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		B55472D8283544C2001CA7CD /* VRUView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRUView.swift; sourceTree = "<group>"; };
+		B55472DA28354546001CA7CD /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		B55472DD28358CCE001CA7CD /* ContentViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewTests.swift; sourceTree = "<group>"; };
+		B55FAC412885C71C00841A4A /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		B55FAC472890460400841A4A /* LogInManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInManagerTests.swift; sourceTree = "<group>"; };
+		B5773E52279B275400A2C81C /* DriveAZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriveAZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5773E55279B275400A2C81C /* DriveAZApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveAZApp.swift; sourceTree = "<group>"; };
+		B5773E57279B275400A2C81C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5773E59279B275600A2C81C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5773E5C279B275600A2C81C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5773E62279B275600A2C81C /* DriveAZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriveAZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5773E66279B275600A2C81C /* DriveAZTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveAZTests.swift; sourceTree = "<group>"; };
+		B5773E6C279B275600A2C81C /* DriveAZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriveAZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5773E70279B275600A2C81C /* DriveAZUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveAZUITests.swift; sourceTree = "<group>"; };
+		B5773E72279B275600A2C81C /* DriveAZUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveAZUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B58E6C4128218D640086D3D1 /* BLEManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManagerTests.swift; sourceTree = "<group>"; };
+		B5B070C427F5F6940076DE4E /* LinearRangeMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearRangeMapTests.swift; sourceTree = "<group>"; };
+		B5B070C727F610270076DE4E /* LocationManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManagerTests.swift; sourceTree = "<group>"; };
+		B5B070CA27F613AD0076DE4E /* PSMManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSMManagerTests.swift; sourceTree = "<group>"; };
+		B5B070CC27F614120076DE4E /* SafetyMessageCreatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyMessageCreatorTests.swift; sourceTree = "<group>"; };
+		B5B070D027FB65970076DE4E /* MotionManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManagerTests.swift; sourceTree = "<group>"; };
+		B5CD72A2283FD322004B9401 /* j2735ConversionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = j2735ConversionsTests.swift; sourceTree = "<group>"; };
+		B5CD72A72847F66D004B9401 /* LogInManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInManager.swift; sourceTree = "<group>"; };
+		B5DD3D2F2989C163007A5B55 /* TransferManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferManager.swift; sourceTree = "<group>"; };
+		B5E6113C284E54CC005948A1 /* amplifyconfiguration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = amplifyconfiguration.json; path = DriveAZ/amplifyconfiguration.json; sourceTree = "<group>"; };
+		B5E6113E285125DD005948A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B5F1EE5C2CC7EBE100E94804 /* EulaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EulaView.swift; sourceTree = "<group>"; };
+		B5F295512892CF8E0002A68A /* ProxyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyManager.swift; sourceTree = "<group>"; };
+		B5F295532894529D0002A68A /* ProxyManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyManagerTests.swift; sourceTree = "<group>"; };
+		DEE058EBDB5B6834A8823B18 /* Pods-DriveAZ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveAZ.release.xcconfig"; path = "Target Support Files/Pods-DriveAZ/Pods-DriveAZ.release.xcconfig"; sourceTree = "<group>"; };
+		F41A9FEB0CDA550E5525EE8E /* Pods-DriveAZ-DriveAZUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveAZ-DriveAZUITests.debug.xcconfig"; path = "Target Support Files/Pods-DriveAZ-DriveAZUITests/Pods-DriveAZ-DriveAZUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F71F9E6DA5B2F73C3FB759FC /* Pods_DriveAZ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveAZ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF9D27AAF5A618E62F24F65 /* Pods_DriveAZ_DriveAZUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveAZ_DriveAZUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5773E4F279B275400A2C81C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACAEC80AA831E44A3E18B6C /* Pods_DriveAZ.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5773E5F279B275600A2C81C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F9F585FFDA74C34A51B2A9 /* Pods_DriveAZTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5773E69279B275600A2C81C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B3B8E83F948F312BA55308 /* Pods_DriveAZ_DriveAZUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5104BBF3F14D8D2029844B95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B52083902A3B8E0F0002236F /* B2VExtras.xcframework */,
+				B520838C2A3B8DF80002236F /* B2VExtrasSwift.xcframework */,
+				F71F9E6DA5B2F73C3FB759FC /* Pods_DriveAZ.framework */,
+				FDF9D27AAF5A618E62F24F65 /* Pods_DriveAZ_DriveAZUITests.framework */,
+				190E4A057BA28B579CF1CF6E /* Pods_DriveAZTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5126496286F4AEE00940DF7 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B5126497286F5C6800940DF7 /* SafetyMessages.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		B55472D12835395F001CA7CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5349FE42D89B88C001FFE3D /* MapBoxView.swift */,
+				B5349FE22D81E84A001FFE3D /* NewMapView.swift */,
+				B5773E57279B275400A2C81C /* ContentView.swift */,
+				B55472D2283540FB001CA7CD /* CustomNavigationView.swift */,
+				B55472D42835441C001CA7CD /* MapView.swift */,
+				B55472D628354486001CA7CD /* ListView.swift */,
+				B55472D8283544C2001CA7CD /* VRUView.swift */,
+				B55472DA28354546001CA7CD /* SettingView.swift */,
+				B55FAC412885C71C00841A4A /* LogInView.swift */,
+				B5F1EE5C2CC7EBE100E94804 /* EulaView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B55472DC28358CB2001CA7CD /* View Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B55472DD28358CCE001CA7CD /* ContentViewTests.swift */,
+			);
+			path = "View Tests";
+			sourceTree = "<group>";
+		};
+		B55BAF3827ECA67C00183A54 /* Safety Message */ = {
+			isa = PBXGroup;
+			children = (
+				B51264902863970700940DF7 /* AlertManager.swift */,
+			);
+			path = "Safety Message";
+			sourceTree = "<group>";
+		};
+		B55BAF3B27ECEB5D00183A54 /* Swift Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A3E68F4B2D5E4615003AA61C /* Geohash.swift */,
+				A38003142D5571520074ECFF /* ETXRegistrationManager.swift */,
+				B53810C62CD94A0300B7B172 /* Extenstions.swift */,
+				A31CDB412CD53340009871FF /* MQTTManager.swift */,
+				B5126494286CB8F100940DF7 /* OldCacheManager.swift */,
+				B5F295512892CF8E0002A68A /* ProxyManager.swift */,
+				B53810CE2CF0D1D800B7B172 /* GeoRoutedMsg.pb.swift */,
+			);
+			path = "Swift Helpers";
+			sourceTree = "<group>";
+		};
+		B55FAC43289045C900841A4A /* AWS Helpers Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B55FAC472890460400841A4A /* LogInManagerTests.swift */,
+				91C9EF2C29F6E4AC008D84E3 /* TransferManagerTests.swift */,
+			);
+			path = "AWS Helpers Tests";
+			sourceTree = "<group>";
+		};
+		B5773E49279B275400A2C81C = {
+			isa = PBXGroup;
+			children = (
+				B5E6113C284E54CC005948A1 /* amplifyconfiguration.json */,
+				B5C8C0DC27CFEE75005CFDC7 /* Packages */,
+				B5773E54279B275400A2C81C /* DriveAZ */,
+				B5773E65279B275600A2C81C /* DriveAZTests */,
+				B5773E6F279B275600A2C81C /* DriveAZUITests */,
+				B5773E53279B275400A2C81C /* Products */,
+				C8B225546CEB503A2C4BC1C5 /* Pods */,
+				5104BBF3F14D8D2029844B95 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5773E53279B275400A2C81C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5773E52279B275400A2C81C /* DriveAZ.app */,
+				B5773E62279B275600A2C81C /* DriveAZTests.xctest */,
+				B5773E6C279B275600A2C81C /* DriveAZUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5773E54279B275400A2C81C /* DriveAZ */ = {
+			isa = PBXGroup;
+			children = (
+				A3CD18882DA7E9A6008035DB /* config.xcconfig */,
+				B5E6113E285125DD005948A1 /* Info.plist */,
+				B5CD72A62847F652004B9401 /* AWS Helpers */,
+				B5126496286F4AEE00940DF7 /* CoreData */,
+				B55472D12835395F001CA7CD /* Views */,
+				B55BAF3827ECA67C00183A54 /* Safety Message */,
+				B55BAF3B27ECEB5D00183A54 /* Swift Helpers */,
+				B5773E55279B275400A2C81C /* DriveAZApp.swift */,
+				B5773E59279B275600A2C81C /* Assets.xcassets */,
+				B5773E5B279B275600A2C81C /* Preview Content */,
+			);
+			path = DriveAZ;
+			sourceTree = "<group>";
+		};
+		B5773E5B279B275600A2C81C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B5773E5C279B275600A2C81C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5773E65279B275600A2C81C /* DriveAZTests */ = {
+			isa = PBXGroup;
+			children = (
+				B55FAC43289045C900841A4A /* AWS Helpers Tests */,
+				B58E6C4028218D410086D3D1 /* BLE Helpers Tests */,
+				B55472DC28358CB2001CA7CD /* View Tests */,
+				B5B070C327F5F6670076DE4E /* B2V Helpers Tests */,
+				B5B070C927F613670076DE4E /* Safety Message Tests */,
+				B5B070C627F610090076DE4E /* Swift Helpers Tests */,
+				B5773E66279B275600A2C81C /* DriveAZTests.swift */,
+			);
+			path = DriveAZTests;
+			sourceTree = "<group>";
+		};
+		B5773E6F279B275600A2C81C /* DriveAZUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5773E70279B275600A2C81C /* DriveAZUITests.swift */,
+				B5773E72279B275600A2C81C /* DriveAZUITestsLaunchTests.swift */,
+			);
+			path = DriveAZUITests;
+			sourceTree = "<group>";
+		};
+		B58E6C4028218D410086D3D1 /* BLE Helpers Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B58E6C4128218D640086D3D1 /* BLEManagerTests.swift */,
+			);
+			path = "BLE Helpers Tests";
+			sourceTree = "<group>";
+		};
+		B5B070C327F5F6670076DE4E /* B2V Helpers Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B5B070C427F5F6940076DE4E /* LinearRangeMapTests.swift */,
+				B5CD72A2283FD322004B9401 /* j2735ConversionsTests.swift */,
+			);
+			path = "B2V Helpers Tests";
+			sourceTree = "<group>";
+		};
+		B5B070C627F610090076DE4E /* Swift Helpers Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B5B070C727F610270076DE4E /* LocationManagerTests.swift */,
+				B5B070D027FB65970076DE4E /* MotionManagerTests.swift */,
+				B5F295532894529D0002A68A /* ProxyManagerTests.swift */,
+				91C9EF2A29F6E070008D84E3 /* ExtensionsTests.swift */,
+				915F9AA929F6EA9300D96531 /* OldCacheManagerTests.swift */,
+			);
+			path = "Swift Helpers Tests";
+			sourceTree = "<group>";
+		};
+		B5B070C927F613670076DE4E /* Safety Message Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B550988D2D56767700DE96DB /* LibSMExtrasTests.swift */,
+				B50A899C2D3948D900E8E9D4 /* AlertManagerTests.swift */,
+				B5B070CA27F613AD0076DE4E /* PSMManagerTests.swift */,
+				B5B070CC27F614120076DE4E /* SafetyMessageCreatorTests.swift */,
+			);
+			path = "Safety Message Tests";
+			sourceTree = "<group>";
+		};
+		B5C8C0DC27CFEE75005CFDC7 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		B5CD72A62847F652004B9401 /* AWS Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B5CD72A72847F66D004B9401 /* LogInManager.swift */,
+				B5DD3D2F2989C163007A5B55 /* TransferManager.swift */,
+			);
+			path = "AWS Helpers";
+			sourceTree = "<group>";
+		};
+		C8B225546CEB503A2C4BC1C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51AE2CB2254E58B31EC03746 /* Pods-DriveAZ.debug.xcconfig */,
+				DEE058EBDB5B6834A8823B18 /* Pods-DriveAZ.release.xcconfig */,
+				F41A9FEB0CDA550E5525EE8E /* Pods-DriveAZ-DriveAZUITests.debug.xcconfig */,
+				4797627E764AAEE0BF7E0E55 /* Pods-DriveAZ-DriveAZUITests.release.xcconfig */,
+				7B900F32640E2144690EBD08 /* Pods-DriveAZTests.debug.xcconfig */,
+				12E1F139EA4F55533BFCE9FE /* Pods-DriveAZTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5773E51279B275400A2C81C /* DriveAZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5773E76279B275600A2C81C /* Build configuration list for PBXNativeTarget "DriveAZ" */;
+			buildPhases = (
+				89EE8A6F04293B5C1D35593B /* [CP] Check Pods Manifest.lock */,
+				B5773E4E279B275400A2C81C /* Sources */,
+				B5773E4F279B275400A2C81C /* Frameworks */,
+				B5773E50279B275400A2C81C /* Resources */,
+				B5F2144627B586BB000D1F3E /* Run Script */,
+				0C506E957CBA20D17B0F5853 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DriveAZ;
+			packageProductDependencies = (
+			);
+			productName = DriveAZ;
+			productReference = B5773E52279B275400A2C81C /* DriveAZ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5773E61279B275600A2C81C /* DriveAZTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5773E79279B275600A2C81C /* Build configuration list for PBXNativeTarget "DriveAZTests" */;
+			buildPhases = (
+				9DB6D9FD22F8B027D2972625 /* [CP] Check Pods Manifest.lock */,
+				B5773E5E279B275600A2C81C /* Sources */,
+				B5773E5F279B275600A2C81C /* Frameworks */,
+				B5773E60279B275600A2C81C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5773E64279B275600A2C81C /* PBXTargetDependency */,
+			);
+			name = DriveAZTests;
+			productName = DriveAZTests;
+			productReference = B5773E62279B275600A2C81C /* DriveAZTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5773E6B279B275600A2C81C /* DriveAZUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5773E7C279B275600A2C81C /* Build configuration list for PBXNativeTarget "DriveAZUITests" */;
+			buildPhases = (
+				999B17B3FD69BF04D510D054 /* [CP] Check Pods Manifest.lock */,
+				B5773E68279B275600A2C81C /* Sources */,
+				B5773E69279B275600A2C81C /* Frameworks */,
+				B5773E6A279B275600A2C81C /* Resources */,
+				817E435532D30450D56DDE99 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5773E6E279B275600A2C81C /* PBXTargetDependency */,
+			);
+			name = DriveAZUITests;
+			productName = DriveAZUITests;
+			productReference = B5773E6C279B275600A2C81C /* DriveAZUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5773E4A279B275400A2C81C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B5773E51279B275400A2C81C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					B5773E61279B275600A2C81C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B5773E51279B275400A2C81C;
+					};
+					B5773E6B279B275600A2C81C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B5773E51279B275400A2C81C;
+					};
+				};
+			};
+			buildConfigurationList = B5773E4D279B275400A2C81C /* Build configuration list for PBXProject "DriveAZ" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5773E49279B275400A2C81C;
+			productRefGroup = B5773E53279B275400A2C81C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5773E51279B275400A2C81C /* DriveAZ */,
+				B5773E61279B275600A2C81C /* DriveAZTests */,
+				B5773E6B279B275600A2C81C /* DriveAZUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5773E50279B275400A2C81C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CD18892DA7E9A6008035DB /* config.xcconfig in Resources */,
+				B5E6113D284E54CC005948A1 /* amplifyconfiguration.json in Resources */,
+				B5773E5D279B275600A2C81C /* Preview Assets.xcassets in Resources */,
+				B5773E5A279B275600A2C81C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5773E60279B275600A2C81C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5773E6A279B275600A2C81C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C506E957CBA20D17B0F5853 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DriveAZ/Pods-DriveAZ-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DriveAZ/Pods-DriveAZ-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DriveAZ/Pods-DriveAZ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		817E435532D30450D56DDE99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DriveAZ-DriveAZUITests/Pods-DriveAZ-DriveAZUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DriveAZ-DriveAZUITests/Pods-DriveAZ-DriveAZUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DriveAZ-DriveAZUITests/Pods-DriveAZ-DriveAZUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89EE8A6F04293B5C1D35593B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DriveAZ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		999B17B3FD69BF04D510D054 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DriveAZ-DriveAZUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DB6D9FD22F8B027D2972625 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DriveAZTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5F2144627B586BB000D1F3E /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  echo swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5773E4E279B275400A2C81C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CD72A82847F66D004B9401 /* LogInManager.swift in Sources */,
+				B5DD3D302989C163007A5B55 /* TransferManager.swift in Sources */,
+				B5126495286CB8F100940DF7 /* OldCacheManager.swift in Sources */,
+				B5126499286F5C6800940DF7 /* SafetyMessages.xcdatamodeld in Sources */,
+				B51264912863970700940DF7 /* AlertManager.swift in Sources */,
+				B55FAC422885C71D00841A4A /* LogInView.swift in Sources */,
+				B5F295522892CF8E0002A68A /* ProxyManager.swift in Sources */,
+				A3E68F4C2D5E4615003AA61C /* Geohash.swift in Sources */,
+				B5773E58279B275400A2C81C /* ContentView.swift in Sources */,
+				B55472D728354486001CA7CD /* ListView.swift in Sources */,
+				B55472D3283540FB001CA7CD /* CustomNavigationView.swift in Sources */,
+				B5349FE52D89B891001FFE3D /* MapBoxView.swift in Sources */,
+				B5F1EE5D2CC7EBE100E94804 /* EulaView.swift in Sources */,
+				B5773E56279B275400A2C81C /* DriveAZApp.swift in Sources */,
+				B55472D9283544C2001CA7CD /* VRUView.swift in Sources */,
+				B53810CF2CF0D1D800B7B172 /* GeoRoutedMsg.pb.swift in Sources */,
+				A31CDB422CD53340009871FF /* MQTTManager.swift in Sources */,
+				B55472DB28354546001CA7CD /* SettingView.swift in Sources */,
+				B5349FE32D81E851001FFE3D /* NewMapView.swift in Sources */,
+				B53810C72CD94A0800B7B172 /* Extenstions.swift in Sources */,
+				B55472D52835441C001CA7CD /* MapView.swift in Sources */,
+				A38003152D5571770074ECFF /* ETXRegistrationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5773E5E279B275600A2C81C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F295542894529D0002A68A /* ProxyManagerTests.swift in Sources */,
+				B5773E67279B275600A2C81C /* DriveAZTests.swift in Sources */,
+				B5B070D127FB65970076DE4E /* MotionManagerTests.swift in Sources */,
+				B5B070C527F5F6940076DE4E /* LinearRangeMapTests.swift in Sources */,
+				B55472DE28358CCE001CA7CD /* ContentViewTests.swift in Sources */,
+				B5B070CB27F613AD0076DE4E /* PSMManagerTests.swift in Sources */,
+				B5B070CD27F614120076DE4E /* SafetyMessageCreatorTests.swift in Sources */,
+				91C9EF2B29F6E070008D84E3 /* ExtensionsTests.swift in Sources */,
+				B58E6C4228218D650086D3D1 /* BLEManagerTests.swift in Sources */,
+				B5CD72A3283FD322004B9401 /* j2735ConversionsTests.swift in Sources */,
+				915F9AAA29F6EA9300D96531 /* OldCacheManagerTests.swift in Sources */,
+				91C9EF2D29F6E4AC008D84E3 /* TransferManagerTests.swift in Sources */,
+				B550988E2D56768300DE96DB /* LibSMExtrasTests.swift in Sources */,
+				B5B070C827F610270076DE4E /* LocationManagerTests.swift in Sources */,
+				B55FAC482890460400841A4A /* LogInManagerTests.swift in Sources */,
+				B50A899D2D3948E200E8E9D4 /* AlertManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5773E68279B275600A2C81C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5773E73279B275600A2C81C /* DriveAZUITestsLaunchTests.swift in Sources */,
+				B5773E71279B275600A2C81C /* DriveAZUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5773E64279B275600A2C81C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5773E51279B275400A2C81C /* DriveAZ */;
+			targetProxy = B5773E63279B275600A2C81C /* PBXContainerItemProxy */;
+		};
+		B5773E6E279B275600A2C81C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5773E51279B275400A2C81C /* DriveAZ */;
+			targetProxy = B5773E6D279B275600A2C81C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B5773E74279B275600A2C81C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3CD18882DA7E9A6008035DB /* config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = test;
+				EXCLUDED_ARCHS2 = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
+				NSBluetoothAlwaysUsageDescription = "BLE Always Usage Description";
+				NSBluetoothPeripheralUsageDescription = "BLE Peripheral Usage Description";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5773E75279B275600A2C81C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3CD18882DA7E9A6008035DB /* config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = test;
+				EXCLUDED_ARCHS2 = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
+				NSBluetoothAlwaysUsageDescription = "BLE Always Usage Description";
+				NSBluetoothPeripheralUsageDescription = "BLE Peripheral Usage Description";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5773E77279B275600A2C81C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51AE2CB2254E58B31EC03746 /* Pods-DriveAZ.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					"$(ARCHS_STANDARD_INCLUDING_64_BIT)",
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 18;
+				DEVELOPMENT_ASSET_PATHS = "\"DriveAZ/Preview Content\"";
+				DEVELOPMENT_TEAM = 33AV9322Z6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DriveAZ/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Drive Arizona";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location is used to tell where you are";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location is used to tell where you are";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Used to detect your vehicle type";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad[sdk=*]" = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone[sdk=*]" = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LD_VERIFY_BITCODE = NO;
+				MARKETING_VERSION = 0.0.13;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.valtech.DriveAZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5773E78279B275600A2C81C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE058EBDB5B6834A8823B18 /* Pods-DriveAZ.release.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					"$(ARCHS_STANDARD_INCLUDING_64_BIT)",
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 18;
+				DEVELOPMENT_ASSET_PATHS = "\"DriveAZ/Preview Content\"";
+				DEVELOPMENT_TEAM = 33AV9322Z6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DriveAZ/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Drive Arizona";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Location is used to tell where you are";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location is used to tell where you are";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Used to detect your vehicle type";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad[sdk=*]" = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone[sdk=*]" = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LD_VERIFY_BITCODE = NO;
+				MARKETING_VERSION = 0.0.13;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.valtech.DriveAZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5773E7A279B275600A2C81C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B900F32640E2144690EBD08 /* Pods-DriveAZTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SCA6TZJEGK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.valtech.DriveAZTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DriveAZ.app/DriveAZ";
+			};
+			name = Debug;
+		};
+		B5773E7B279B275600A2C81C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12E1F139EA4F55533BFCE9FE /* Pods-DriveAZTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SCA6TZJEGK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.valtech.DriveAZTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DriveAZ.app/DriveAZ";
+			};
+			name = Release;
+		};
+		B5773E7D279B275600A2C81C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F41A9FEB0CDA550E5525EE8E /* Pods-DriveAZ-DriveAZUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SCA6TZJEGK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.valtech.DriveAZUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DriveAZ;
+			};
+			name = Debug;
+		};
+		B5773E7E279B275600A2C81C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4797627E764AAEE0BF7E0E55 /* Pods-DriveAZ-DriveAZUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SCA6TZJEGK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.valtech.DriveAZUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DriveAZ;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5773E4D279B275400A2C81C /* Build configuration list for PBXProject "DriveAZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5773E74279B275600A2C81C /* Debug */,
+				B5773E75279B275600A2C81C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5773E76279B275600A2C81C /* Build configuration list for PBXNativeTarget "DriveAZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5773E77279B275600A2C81C /* Debug */,
+				B5773E78279B275600A2C81C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5773E79279B275600A2C81C /* Build configuration list for PBXNativeTarget "DriveAZTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5773E7A279B275600A2C81C /* Debug */,
+				B5773E7B279B275600A2C81C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5773E7C279B275600A2C81C /* Build configuration list for PBXNativeTarget "DriveAZUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5773E7D279B275600A2C81C /* Debug */,
+				B5773E7E279B275600A2C81C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B5126497286F5C6800940DF7 /* SafetyMessages.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B5126498286F5C6800940DF7 /* SafetyMessages.xcdatamodel */,
+			);
+			currentVersion = B5126498286F5C6800940DF7 /* SafetyMessages.xcdatamodel */;
+			path = SafetyMessages.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B5773E4A279B275400A2C81C /* Project object */;
+}

@@ -1,0 +1,22 @@
+name: Lint PR
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+      - labeled
+      - synchronize # need to put new status on each commit pushed to pr
+
+# only run one workflow at a time and kill the others
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: US-Detroit/internal-safetyteam-ci-pr-validation@v1
+        with:
+          token: ${{ secrets.TOME_GITHUB_STATUS_TOKEN }}

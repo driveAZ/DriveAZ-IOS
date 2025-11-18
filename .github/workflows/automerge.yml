@@ -1,0 +1,20 @@
+name: automerge
+on:
+  pull_request:
+    types:
+      - labeled
+      - reopened
+      - unlocked
+  pull_request_review:
+    types:
+      - submitted
+  check_suite:
+    types:
+      - completed
+  status: {}
+
+jobs:
+  call:
+    uses: US-Detroit/internal-safetyteam-ci-workflows/.github/workflows/automerge.yml@v1
+    secrets:
+      envPAT: ${{ secrets.TOME_GITHUB_STATUS_TOKEN }}

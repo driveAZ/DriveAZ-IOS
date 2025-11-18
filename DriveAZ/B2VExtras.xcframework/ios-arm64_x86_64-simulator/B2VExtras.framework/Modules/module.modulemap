@@ -1,0 +1,6 @@
+framework module B2VExtras {
+  umbrella header "B2VExtras.h"
+
+  export *
+  module * { export * }
+}

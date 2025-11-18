@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'DriveAZ' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'CocoaMQTT'
+  pod 'Alamofire'
+  pod 'CocoaLumberjack/Swift'
+  pod 'MapboxMaps'
+
+
+  # Pods for DriveAZ
+  pod 'SmartDeviceLink', '~> 7.5.0'
+  pod 'SwiftProtobuf', '~> 1.0'
+
+  pod 'b2v-ios-extras', git: 'git@github.com:US-Detroit/internal-b2v-ios-libsmores.git'
+  pod 'b2v-ios-extras-swift', git: 'git@github.com:US-Detroit/internal-b2v-ios-libsmores.git'
+
+  target 'DriveAZTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'DriveAZUITests' do
+    # Pods for testing
+  end
+
+end
