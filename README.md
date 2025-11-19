@@ -35,3 +35,13 @@ There are a number of tests for the app in `DriveAZ/DriveAZTests` and `DriveAZ/D
 ### Who do I talk to? ###
 
 ben.willshire@valtech.com is the original author; rich.rarey@valtech.com is the nominal owner
+
+## Software Heritage archival
+
+This repository is archived in Software Heritage.
+
+- Directory SWHID: `swh:1:dir:500455176bf97a234d5fd09cfe4897a7dd471f91`
+- Revision SWHID: `swh:1:rev:6ccd7e89ba375dbc27082abf027772138f8d3940`
+- Browse online:
+  - https://archive.softwareheritage.org/swh:1:dir:500455176bf97a234d5fd09cfe4897a7dd471f91/
+  - https://archive.softwareheritage.org/swh:1:rev:6ccd7e89ba375dbc27082abf027772138f8d3940/
